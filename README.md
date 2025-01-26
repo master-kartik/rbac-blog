@@ -1,48 +1,54 @@
 
-Here’s a restructured and cleaner version of your README:
+<p align="center"><h1 align="center">RBAC-BLOG</h1></p>
 
-RBAC-BLOG
-A full-stack blog application with role-based user structure, offering two roles: Admin and User. Admins can access a complete dashboard to perform actions like creating posts, deleting posts, and managing users.
 
-Table of Contents
-Overview
-Features
-Project Structure
-Getting Started
-Prerequisites
-Installation
-Usage
-Overview
-RBAC-BLOG is designed to implement role-based access control. It provides:
+##  Table of Contents
 
-Admin Role: Full dashboard access to manage posts and users.
-User Role: Basic access to view and interact with posts.
-Project Structure
-lua
-Copy
-Edit
-rbac-blog/
-├── client
-│   ├── .contentlayer
-│   ├── .eslintrc.cjs
-│   ├── .gitignore
-│   ├── README.md
-│   ├── index.html
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── postcss.config.js
-│   ├── src
-│   ├── tailwind.config.js
-│   └── vite.config.js
-└── server
-    ├── .env
-    ├── .gitignore
-    ├── package-lock.json
-    ├── package.json
-    └── src
-Getting Started
-Prerequisites
-Before you begin, make sure your environment meets the following requirements:
+- [ Overview](#-overview)
+- [ Features](#-features)
+- [ Project Structure](#-project-structure)
+  - [ Project Index](#-project-index)
+- [ Getting Started](#-getting-started)
+  - [ Prerequisites](#-prerequisites)
+  - [ Installation](#-installation)
+  - [ Usage](#-usage)
+
+---
+
+##  Overview
+
+This is a full stack blog application with role based user structure it has two roles admin and user. Admin can see full dashboard perform actions like creating a post and deleting post and users etc.
+
+
+##  Project Structure
+
+```sh
+└── rbac-blog/
+    ├── client
+    │   ├── .contentlayer
+    │   ├── .eslintrc.cjs
+    │   ├── .gitignore
+    │   ├── README.md
+    │   ├── index.html
+    │   ├── package-lock.json
+    │   ├── package.json
+    │   ├── postcss.config.js
+    │   ├── src
+    │   ├── tailwind.config.js
+    │   └── vite.config.js
+    └── server
+        ├── .env
+        ├── .gitignore
+        ├── package-lock.json
+        ├── package.json
+        └── src
+```
+
+
+##  Getting Started
+###  Prerequisites
+
+Before getting started with rbac-blog, ensure your runtime environment meets the following requirements:
 
 - **Programming Language:** JavaScript
 - **Package Manager:** Npm
@@ -92,3 +98,16 @@ Run this locally rbac-blog using the following command:
 ```sh
 ❯ cd npm run dev
 ```
+
+Credentials
+Use the following credentials to log in:
+
+Admin User:
+
+Email: admin@gmail.com
+Password: 11111
+Test User:
+
+Email: user1@user.com
+Password: 11111
+Note: Ensure the .env file is correctly configured for the server.
