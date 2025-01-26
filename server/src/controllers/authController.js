@@ -5,7 +5,7 @@ const User = require("../models/userModel");
 const register = async (req, res, next) => {
   try {
     const { username, email, password } = req.body;
-    console.log(req.body);
+
     if (!username || !email || !password) {
       return res.status(400).json({ message: "All fields are required" });
     }
@@ -44,7 +44,7 @@ const login = async (req, res) => {
       { id: user._id, role: user.role },
       process.env.JWT_SECRET
     );
-    console.log(token);
+
     const { password: pass, ...rest } = user._doc;
     res
       .status(200)
