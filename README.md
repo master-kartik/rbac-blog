@@ -98,3 +98,16 @@ Run this locally rbac-blog using the following command:
 ```sh
 ❯ cd npm run dev
 ```
+
+###Credentials
+Use the following credentials to log in:
+
+Admin User:
+
+Email: admin@gmail.com
+Password: 11111
+Test User:
+
+Email: user1@user.com
+Password: 11111
+Note: Ensure the .env file is correctly configured for the server.
