@@ -1,100 +1,101 @@
 
-<p align="center"><h1 align="center">RBAC-BLOG</h1></p>
+Here’s a restructured and cleaner version of your README:
 
+RBAC-BLOG
+A full-stack blog application with role-based user structure, offering two roles: Admin and User. Admins can access a complete dashboard to perform actions like creating posts, deleting posts, and managing users.
 
-##  Table of Contents
+Table of Contents
+Overview
+Features
+Project Structure
+Getting Started
+Prerequisites
+Installation
+Usage
+Overview
+RBAC-BLOG is designed to implement role-based access control. It provides:
 
-- [ Overview](#-overview)
-- [ Features](#-features)
-- [ Project Structure](#-project-structure)
-  - [ Project Index](#-project-index)
-- [ Getting Started](#-getting-started)
-  - [ Prerequisites](#-prerequisites)
-  - [ Installation](#-installation)
-  - [ Usage](#-usage)
+Admin Role: Full dashboard access to manage posts and users.
+User Role: Basic access to view and interact with posts.
+Project Structure
+lua
+Copy
+Edit
+rbac-blog/
+├── client
+│   ├── .contentlayer
+│   ├── .eslintrc.cjs
+│   ├── .gitignore
+│   ├── README.md
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── src
+│   ├── tailwind.config.js
+│   └── vite.config.js
+└── server
+    ├── .env
+    ├── .gitignore
+    ├── package-lock.json
+    ├── package.json
+    └── src
+Getting Started
+Prerequisites
+Before you begin, make sure your environment meets the following requirements:
 
----
+Programming Language: JavaScript
+Package Manager: npm
+Installation
+Follow these steps to install RBAC-BLOG:
 
-##  Overview
+Clone the repository:
 
-This is a full stack blog application with role based user structure it has two roles admin and user. Admin can see full dashboard perform actions like creating a post and deleting post and users etc.
+sh
+Copy
+Edit
+git clone https://github.com/master-kartik/rbac-blog
+Navigate to the project directory:
 
+sh
+Copy
+Edit
+cd rbac-blog
+Install dependencies for both client and server:
 
-##  Project Structure
+sh
+Copy
+Edit
+npm install
+Usage
+Run the project locally:
 
-```sh
-└── rbac-blog/
-    ├── client
-    │   ├── .contentlayer
-    │   ├── .eslintrc.cjs
-    │   ├── .gitignore
-    │   ├── README.md
-    │   ├── index.html
-    │   ├── package-lock.json
-    │   ├── package.json
-    │   ├── postcss.config.js
-    │   ├── src
-    │   ├── tailwind.config.js
-    │   └── vite.config.js
-    └── server
-        ├── .env
-        ├── .gitignore
-        ├── package-lock.json
-        ├── package.json
-        └── src
-```
+Start the client:
 
+sh
+Copy
+Edit
+cd client
+npm run dev
+Start the server:
 
-##  Getting Started
-###  Prerequisites
+sh
+Copy
+Edit
+cd server
+npm run dev
+Open your browser and visit:
+http://localhost:5173/
 
-Before getting started with rbac-blog, ensure your runtime environment meets the following requirements:
+Credentials
+Use the following credentials to log in:
 
-- **Programming Language:** JavaScript
-- **Package Manager:** Npm
+Admin User:
 
+Email: admin@gmail.com
+Password: 11111
+Test User:
 
-
-###  Installation
-
-Install rbac-blog using one of the following methods:
-
-**Build from source:**
-
-1. Clone the rbac-blog repository:
-```sh
-❯ git clone https://github.com/master-kartik/rbac-blog
-```
-
-2. Navigate to the project directory:
-```sh
-❯ cd rbac-blog
-```
-
-3. Install the project dependencies:
-
-
-**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
-
-```sh
-❯ npm install
-```
-
-
-
-###  Usage
-Run this locally rbac-blog using the following command:
-**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
-
-```sh
-❯ cd client
-```
-```sh
-❯ cd npm run dev
-```
-```sh
-❯ cd server
-```
-```sh
-❯ cd npm run dev
-```
+Email: user1@user.com
+Password: 11111
+Note: Ensure the .env file is correctly configured for the server.
