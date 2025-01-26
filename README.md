@@ -44,58 +44,51 @@ Getting Started
 Prerequisites
 Before you begin, make sure your environment meets the following requirements:
 
-Programming Language: JavaScript
-Package Manager: npm
-Installation
-Follow these steps to install RBAC-BLOG:
+- **Programming Language:** JavaScript
+- **Package Manager:** Npm
 
-Clone the repository:
 
-sh
-Copy
-Edit
-git clone https://github.com/master-kartik/rbac-blog
-Navigate to the project directory:
 
-sh
-Copy
-Edit
-cd rbac-blog
-Install dependencies for both client and server:
+###  Installation
 
-sh
-Copy
-Edit
-npm install
-Usage
-Run the project locally:
+Install rbac-blog using one of the following methods:
 
-Start the client:
+**Build from source:**
 
-sh
-Copy
-Edit
-cd client
-npm run dev
-Start the server:
+1. Clone the rbac-blog repository:
+```sh
+❯ git clone https://github.com/master-kartik/rbac-blog
+```
 
-sh
-Copy
-Edit
-cd server
-npm run dev
-Open your browser and visit:
-http://localhost:5173/
+2. Navigate to the project directory:
+```sh
+❯ cd rbac-blog
+```
 
-Credentials
-Use the following credentials to log in:
+3. Install the project dependencies:
 
-Admin User:
 
-Email: admin@gmail.com
-Password: 11111
-Test User:
+**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
-Email: user1@user.com
-Password: 11111
-Note: Ensure the .env file is correctly configured for the server.
+```sh
+❯ npm install
+```
+
+
+
+###  Usage
+Run this locally rbac-blog using the following command:
+**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+
+```sh
+❯ cd client
+```
+```sh
+❯ cd npm run dev
+```
+```sh
+❯ cd server
+```
+```sh
+❯ cd npm run dev
+```
