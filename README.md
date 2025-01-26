@@ -47,6 +47,60 @@ This is a full stack blog application with role based user structure it has two 
 
 ##  Getting Started
 ###  Prerequisites
+<<<<<<< HEAD
+=======
+
+Before getting started with rbac-blog, ensure your runtime environment meets the following requirements:
+
+- **Programming Language:** JavaScript
+- **Package Manager:** Npm
+
+
+
+###  Installation
+
+Install rbac-blog using one of the following methods:
+
+**Build from source:**
+
+1. Clone the rbac-blog repository:
+```sh
+❯ git clone https://github.com/master-kartik/rbac-blog
+```
+
+2. Navigate to the project directory:
+```sh
+❯ cd rbac-blog
+```
+
+3. Install the project dependencies:
+
+
+**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+
+```sh
+❯ npm install
+```
+
+
+
+###  Usage
+Run this locally rbac-blog using the following command:
+**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+
+```sh
+❯ cd client
+```
+```sh
+❯ cd npm run dev
+```
+```sh
+❯ cd server
+```
+```sh
+❯ cd npm run dev
+```
+>>>>>>> 9d94cbc76ac0294f626b377adddb01b781951334
 
 Before getting started with rbac-blog, ensure your runtime environment meets the following requirements:
 
