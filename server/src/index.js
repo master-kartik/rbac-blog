@@ -18,13 +18,13 @@ app.use(cp());
 app.use("/api/auth", authRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/post", blogRoutes);
-app.use(express.static(path.join(__dirname, '../client/dist')));
+app.use(express.static(path.join(__dirname, '../client/build')));
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'client', 'dist', 'index.html'));
+  res.sendFile(path.join(__dirname, '../../client', 'build', 'index.html'));
 });
 //listen
 const PORT = process.env.PORT || 8001;
 app.listen(PORT, () => {
-  // console.log(`Server is running on port: ${PORT}`);
+  console.log(`Server is running on port: ${PORT}`);
 });
