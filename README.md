@@ -71,32 +71,19 @@ Install rbac-blog using one of the following methods:
 ❯ cd rbac-blog
 ```
 
-3. Install the project dependencies:
-
-
-**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
-
-```sh
-❯ npm install
-```
-
-
 
 ###  Usage
 Run this locally rbac-blog using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
 ```sh
-❯ cd client
-```
-```sh
-❯ cd npm run dev
-```
-```sh
 ❯ cd server
 ```
 ```sh
-❯ cd npm run dev
+❯ npm run builld
+```
+```sh
+❯ npm start
 ```
 
 Credentials
