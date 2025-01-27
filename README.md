@@ -2,6 +2,11 @@
 <p align="center"><h1 align="center">RBAC-BLOG</h1></p>
 
 
+##  Deployed URL
+Check the deployment here :  https://rbac-blog.onrender.com/
+
+
+
 ##  Table of Contents
 
 - [ Overview](#-overview)
@@ -97,4 +102,7 @@ Test User:
 
 Email: user1@user.com
 Password: 11111
+
+
+
 Note: Ensure the .env file is correctly configured for the server.
