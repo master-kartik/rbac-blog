@@ -9,7 +9,6 @@ const dotenv = require("dotenv").config();
 
 dbCon();
 const app = express();
-let __dirname = path.resolve();
 
 //middleware
 app.use(express.json());
