@@ -18,10 +18,10 @@ app.use(cp());
 app.use("/api/auth", authRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/post", blogRoutes);
-app.use(express.static(path.join(__dirname, '../client/build')));
+app.use(express.static(path.join(__dirname, '../../client/dist')));
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../../client', 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, '../../client/dist', 'index.html'));
 });
 //listen
 const PORT = process.env.PORT || 8001;
